@@ -1,0 +1,1 @@
+CREATE KEYSPACE storeroom WITH REPLICATION = { 'class' : 'org.apache.cassandra.locator.SimpleStrategy', 'replication_factor': '1' };
