@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import static com.nibado.restaurant.service.storeroom.repository.domain.ItemEntity.TABLE;
 import static com.nibado.restaurant.testlib.cassandra.CassandraHelper.truncate;
-import static org.assertj.core.api.Java6Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.NONE;
 
 @RunWith(SpringRunner.class)

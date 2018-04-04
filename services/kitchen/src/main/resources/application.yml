@@ -29,3 +29,10 @@ kafka:
   topics:
     input:  kitchen_in
     output: kitchen_out
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:32776
+    consumer:
+      group-id: foo
+      auto-offset-reset: earliest
