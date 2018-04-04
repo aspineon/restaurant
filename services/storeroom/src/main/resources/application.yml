@@ -1,2 +1,8 @@
+inventory:
+  - name: tomatoes
+    qtty: 100
+  - name: potatoes
+    qtty: 100
+
 cassandra:
   keyspace: storeroom

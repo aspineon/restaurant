@@ -18,4 +18,8 @@ public class InventoryService {
     public List<Item> getAll() {
         return itemRepository.getAll().stream().map(e -> new Item(e.getName(), (int) e.getQtty())).collect(Collectors.toList());
     }
+
+    public void increment(final String name, final int amount) {
+        itemRepository.increment(name, amount);
+    }
 }

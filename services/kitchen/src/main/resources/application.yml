@@ -1,0 +1,31 @@
+recipes:
+  - name:     fries
+    duration: 2
+    items:
+    - name: potatoes
+      qtty: 3
+  - name:     hamburger
+    duration: 10
+    items:
+    - name: mincemeat
+      qtty: 1
+    - name: onion
+      qtty: 1
+    - name: tomato
+      qtty: 1
+  - name:     cheeseburger
+    duration: 10
+    items:
+    - name: mincemeat
+      qtty: 1
+    - name: onion
+      qtty: 1
+    - name: tomato
+      qtty: 1
+    - name: cheese
+      qtty: 1
+
+kafka:
+  topics:
+    input:  kitchen_in
+    output: kitchen_out
