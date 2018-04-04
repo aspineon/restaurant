@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.stream.Collectors;
 
 import static com.nibado.restaurant.service.storeroom.controller.dto.Inventory.item;
-import static java.util.Arrays.asList;
 
 @RestController
 @RequestMapping("/inventory")

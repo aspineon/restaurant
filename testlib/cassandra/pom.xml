@@ -3,27 +3,26 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>services</artifactId>
+        <artifactId>testlib</artifactId>
         <groupId>com.nibado.restaurant</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>storeroom</artifactId>
+    <artifactId>cassandra-testlib</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.nibado.restaurant</groupId>
-            <artifactId>cassandra-lib</artifactId>
-            <version>${project.version}</version>
+            <groupId>com.datastax.cassandra</groupId>
+            <artifactId>cassandra-driver-core</artifactId>
         </dependency>
-
         <dependency>
-            <groupId>com.nibado.restaurant</groupId>
-            <artifactId>cassandra-testlib</artifactId>
-            <version>${project.version}</version>
-            <scope>test</scope>
+            <groupId>com.datastax.cassandra</groupId>
+            <artifactId>cassandra-driver-mapping</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.archinnov</groupId>
+            <artifactId>achilles-embedded</artifactId>
         </dependency>
     </dependencies>
-
 </project>

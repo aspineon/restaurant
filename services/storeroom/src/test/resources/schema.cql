@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS items (name text, qtty counter, PRIMARY KEY(name));
