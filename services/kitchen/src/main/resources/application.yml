@@ -32,7 +32,7 @@ kafka:
 
 spring:
   kafka:
-    bootstrap-servers: localhost:32776
+    bootstrap-servers: localhost:32768
     consumer:
       group-id: foo
       auto-offset-reset: earliest

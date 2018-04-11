@@ -9,26 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>storeroom</artifactId>
+    <artifactId>sleuth-test</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>com.nibado.restaurant</groupId>
-            <artifactId>cassandra-lib</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-sleuth</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>com.nibado.restaurant</groupId>
-            <artifactId>cassandra-testlib</artifactId>
-            <version>${project.version}</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
-
 </project>
